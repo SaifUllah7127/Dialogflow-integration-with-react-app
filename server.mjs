@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 7001;
 
 app.post("/talktochatbot", async (req, res) => {
 
-    const projectId = "saylani-class-delete-this"
+    const projectId = "firstagent-skmc"
     const sessionId = req.body.sessionId || "session123"
     const query = req.body.text;
     const languageCode = "en-US"
